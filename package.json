@@ -1,0 +1,25 @@
+{
+  "name": "chapter9-11",
+  "version": "1.0.0",
+  "description": "creation of node-lite server",
+  "main": "index.html",
+  "dependencies": {
+    "lite-server": "^2.5.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "npm run lite",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lite": "lite-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/muhammadfaraz6640/node-lite-server.git"
+  },
+  "author": "muhammad faraz ansar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/muhammadfaraz6640/node-lite-server/issues"
+  },
+  "homepage": "https://github.com/muhammadfaraz6640/node-lite-server#readme"
+}
