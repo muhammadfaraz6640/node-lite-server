@@ -1,0 +1,14 @@
+-------------------node lite server steps------------
+1) go to the directory where your code files exists
+2) open cmd in that directory
+3)write command :  npm init
+after the above command package.json file created and you have to write some things like file name,github repo name,author name,description and press ok
+4) then write : npm install lite-server --save-dev
+after the above command node_modules created
+5) then go to the package.json file write :
+"scripts": {
+    "start": "npm run lite",
+    "test": "echo \"Error: no test specified\" && exit 1",//this is already written
+    "lite": "lite-server"
+}
+6)npm start to direct to the browser
